@@ -8,8 +8,8 @@
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     border-radius: 8px;
     border-width: 0px;
-    width: 189px;
-    height: 48px;
+    /* height: 48px; */
+    Padding: 15px;
 }
 
 .button_primary {
