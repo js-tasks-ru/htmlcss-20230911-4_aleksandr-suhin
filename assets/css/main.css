@@ -1,5 +1,6 @@
 @import '../fonts/fonts.css';
-
+@import '../../components/card/card.css';
+@import '../../components/container/container.css';
 @import '../../components/header/header.css';
 @import '../../components/preview/preview.css';
 @import '../../components/footer/footer.css';
@@ -24,6 +25,11 @@
     --secondary: var(--purple);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
 }

@@ -1,0 +1,38 @@
+.histogram{
+    border: 1px var(--black) solid;
+    border-radius: 8px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.histogram__text{
+
+}
+
+.histogram__header{
+
+}
+
+.histogram__link{
+
+}
+
+.histogram__value{
+
+}
+
+.histogram__histogram{
+    display: flex;    
+    justify-content: space-between;
+    flex-basis: 10px;
+    flex-grow: 1;
+}
+
+.histogram__column{
+    background-color: var(--primary);    
+    width: 10px;
+}
+
+
+
