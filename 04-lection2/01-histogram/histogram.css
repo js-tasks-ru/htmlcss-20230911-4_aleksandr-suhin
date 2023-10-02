@@ -1,13 +1,13 @@
 .histogram{
     border: 1px var(--black) solid;
     border-radius: 8px;
-    padding: 25px;
+    padding: 25px;    
     display: flex;
     flex-direction: column;
 }
 
 .histogram__text{
-
+    flex-basis: 50%;
 }
 
 .histogram__header{
@@ -25,13 +25,15 @@
 .histogram__histogram{
     display: flex;    
     justify-content: space-between;
-    flex-basis: 10px;
-    flex-grow: 1;
+    align-items: flex-end;
+    gap: 3px;
+    flex-basis: 50%;
+    height: 50px;
 }
 
 .histogram__column{
     background-color: var(--primary);    
-    width: 10px;
+    flex-basis: 100%;   
 }
 
 
