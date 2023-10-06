@@ -4,14 +4,16 @@
     padding: 16px 24px 24px 24px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .histogram__labels {
-    flex-basis: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .histogram__header {
-    width: 200px;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -19,11 +21,8 @@
     line-height: 24px;
 }
 
-.histogram__link {
-    margin-top: -20px;
+.histogram__link {    
     color: var(--primary);
-    text-align: right;
-
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -40,15 +39,13 @@
 }
 
 .histogram__histogram {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    gap: 3px;
-    flex-basis: 50%;
     height: 50px;
+    display: flex;
+    align-items: flex-end;
+    gap: 1px;
 }
 
 .histogram__column {
-    background-color: var(--primary);
     flex-basis: 100%;
+    background-color: var(--primary);
 }
