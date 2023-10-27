@@ -2,7 +2,6 @@
 .accordion {}
 
 .accordion__details {
-    background: white;
     border-radius: 8px;
     border: 1px #ACB5BD solid;
     color: var(--black);
@@ -35,10 +34,14 @@
 .accordion__summary-marker {
     display: inline-block;
     padding-right: 0.5em;
-    align-content: right;
+    
 }
 
-.accordion__details[open] .accordion__summary-marker {
+.accordion__details[open] {
+    padding-bottom: 32px
+}
+
+.accordion__details[open] .accordion__summary-marker {    
     transform-origin: 1ex 1.5ex;
     transform: rotate(90deg);
 }
